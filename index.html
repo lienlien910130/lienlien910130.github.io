@@ -27,7 +27,7 @@
           <!-- 基本環境資訊-->
           <div class="box">
             <h3>基本環境資訊</h3>
-            <textarea class="u-full-width" id="result-basic" placeholder="結果會顯示在這"></textarea>
+            <textarea class="u-full-width" id="result-basic" placeholder=""></textarea>
           </div>
           <hr/>
           <!-- 登入、登出-->
@@ -38,24 +38,16 @@
           <hr/>
           <!-- 取得使用者資料-->
           <div class="box">
-            <button id="getContext">取得使用者類型資料</button>
             <button id="profile">取得使用者公開資料</button>
             <button id="getEmail">取得使用者 email</button>
-            <textarea class="u-full-width" id="result-info" placeholder="結果會顯示在這"></textarea>
+            <textarea class="u-full-width" id="result-info" placeholder=""></textarea>
           </div>
           <hr/>
           <!-- 掃描器-->
           <div class="box">
-            <h2>掃描器</h2>
-            <ol>
-              <li>僅支援在 LINE App 內開啟時</li>
-              <li>後台的「Scan QR」必須是打勾的，而且使用者要在 LINE App 上開啟時才能使用</li>
-              <li>會回傳字串回來</li>
-              <li>IOS 的 LINE 在 9.19.0 以上的版本無法使用，會回傳 undefined</li>
-            </ol>
-            <script src="https://gist.github.com/letswritetw/bc975bf7db7d049b0687e6a038b88f74.js"></script>
-            <input class="u-full-width" id="result-qr" type="text" placeholder="這邊會顯示掃描後的結果"/>
-            <button id="qrScan">打開 QR code 掃描器</button>
+            <input class="u-full-width" id="result-qr" type="text" placeholder="掃描結果"/>
+            <input class="u-full-width" id="result-api" type="text" placeholder="api結果"/>
+            <button id="qrScan">掃描器</button>
           </div>
           <hr/>
          
