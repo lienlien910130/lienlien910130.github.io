@@ -26,13 +26,6 @@
       <h6>筆記文：<a href="https://letswrite.tw/liff-init/" target="_blank">Let's Write</a></h6>
       <section class="row">
         <div class="twelve column">
-          <!-- 填寫 LIFF ID-->
-          <div class="box">
-            <h2>填寫 LIFF ID 以啟動範例功能</h2>
-            <p>請參考筆記文，建立自己的 LIFF 後，將取得的 LIFF ID 填入以下欄位。</p>
-            <input class="u-full-width" id="liff-input" type="text" placeholder="請填入LIFF ID"/>
-            <button class="button-primary" id="liff-btn">確認並啟動</button>
-          </div>
           <!-- 基本環境資訊-->
           <div class="box">
             <h2>基本環境資訊</h2>
@@ -73,42 +66,6 @@
             <button id="profile">取得使用者公開資料</button>
             <button id="getEmail">取得使用者 email</button>
             <textarea class="u-full-width" id="result-info" placeholder="結果會顯示在這"></textarea>
-          </div>
-          <hr/>
-          <!-- 傳訊息-->
-          <div class="box">
-            <h2>傳訊息</h2>
-            <ul>
-              <li>會用你的帳號傳訊息</li>
-              <li>傳送訊息：無法在外部瀏覽器使用</li>
-              <li>傳送訊息：後台 Scopes 的「chat_message.write」要打勾</li>
-              <li>傳送訊息給朋友：登入 LINE 帳號即可使用</li>
-              <li>傳送訊息給朋友：LIFF 後台上的「shareTargetPicker」必須要是打勾</li>
-              <li>這邊傳訊息的部份，是用你的帳號傳訊息到 好友、聊天室、群組、機器人</li>
-              <li>使用者登入時的「傳送訊息至聊天室」要是「許可」</li>
-            </ul>
-            <script src="https://gist.github.com/letswritetw/1c8275d7a0780941f2da5b6850d2e2ad.js"></script>
-            <h3>示範</h3>
-            <input class="u-full-width" id="message" type="text" placeholder="請填入要傳送的訊息"/>
-            <button id="sendMessage">傳送訊息</button>
-            <button id="sendShareTarget">傳送訊息給朋友</button>
-          </div>
-          <hr/>
-          <!-- 連結-->
-          <div class="box">
-            <h2>連結</h2>
-            <script src="https://gist.github.com/letswritetw/6b77b5af7c5c2ce1ed87bcc909e743e8.js"></script>
-            <h3>示範</h3>
-            <div class="row">
-              <div class="one-half column">
-                <input class="u-full-width" id="uri" type="url" placeholder="請填入要開啟的連結"/>
-                <button id="openWindow">開啟連結</button>
-              </div>
-              <div class="one-half column">
-                <input class="u-full-width" id="result-uri" type="url" placeholder="這邊會顯示本頁連結"/>
-                <button id="getLink">取得當下頁面的連結</button>
-              </div>
-            </div>
           </div>
           <hr/>
           <!-- 掃描器-->
