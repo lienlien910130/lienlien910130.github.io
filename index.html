@@ -38,38 +38,31 @@
         </div>
       </div>
       <div class="row" id="result" style="margin:auto;height: calc(100vh - 70px);justify-content:center;align-items: center;">
-        <!-- <button id="qrScan" type="button" class="btn btn-warning" style="width:25%;margin-right: 10px;">掃描</button> -->
         <div id="btns" style="display: none;">
-          <button id="qrScan" type="button" class="btn btn-warning" style="width: 100%;display: none;">掃描</button>
-          <button id="againcheck" type="button" class="btn btn-warning" style="width: 100%;display: none;">再次送審</button>
+          <button id="qrScan" type="button" class="btn btn-warning" style="width: 100%;display: none;height: 50px">掃描</button>
+          <button id="againcheck" type="button" class="btn btn-warning" style="width: 100%;display: none;height: 50px">再次送審</button>
         </div>
         <div id="textDiv" style="display: none;text-align: center;margin: auto;">
           <p style="color:#6C757D">通關碼</p>
-          <p id="code"></p>
+          <p id="code" style="font-weight: bold;font-size: 20px;"></p>
           <p style="color:#6C757D">姓名</p>
-          <p id="currentName"></p>
+          <p id="currentName"  style="font-weight: bold;font-size: 20px;"></p>
           <p id="passed" style="    background-color: red;
-          height: 80px;
-          color: white;
-          text-align: center;
-          line-height: 80px;
-          border-radius: 10px;
-          font-weight: bold;
-          display: none;"></p>
-          <button id="passbtn" type="button" class="btn btn-warning" style="width: 100%;margin-top:50px;display: none;">交付入場物品</button>
-          <button id="cancelbtn" type="button" class="btn btn-secondary" style="width: 100%;margin: 10px 0px;">取消</button>
+            color: white;
+            text-align: center;
+            border-radius: 10px;
+            font-weight: bold;
+            padding: 20px 15px;display: none;
+            "></p>
+          <button id="passbtn" type="button" class="btn btn-warning" style="width: 100%;margin-top:50px;display: none;height: 50px">交付入場物品</button>
+          <button id="cancelbtn" type="button" class="btn btn-secondary" style="width: 100%;margin: 10px 0px;height: 50px;">取消</button>
         </div>
       </div>
-      <!-- <div class="row"  style="padding-top: 10px;">
-        <button id="qrScan" type="button" class="btn btn-warning" style="width:25%;margin-right: 10px;">掃描</button>
-        <input id="result-qr" type="text" class="form-control" aria-label="resultQR" style="width:70%">
-      </div> -->
-      <div class="row" style="padding-top: 10px;" id="result-api"></div>
       <div class="row" style="padding-top: 10px;" id="result-b"></div>
       <button id="reload" type="button" class="btn btn-secondary" >reload</button>
     </div>
     <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
-    <script src="dist/main.js"></script>
+    <!-- <script src="dist/main.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
   </body>
 </html>
