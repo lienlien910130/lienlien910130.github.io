@@ -37,7 +37,7 @@
           <span id="currentNum"></span> / <span id="totalNum"></span>
         </div>
       </div>
-      <div class="row" id="result" style="flex-direction: column;margin:auto;height: calc(100vh - 70px);justify-content:center;align-items: center;">
+      <div class="row" id="result" style="flex-direction: column;margin:auto;height: calc(100vh - 70px);justify-content:center;align-items: center;position: relative;">
         <div id="msg" style="text-align: center;font-size: 24px;margin-bottom: 3px;"></div>
         <div id="btns" style="display: none;">
           <button id="qrScan" type="button" class="btn btn-warning" style="width: 100%;display: none;height: 50px">掃描</button>
@@ -57,7 +57,8 @@
             padding: 20px 15px;display: none;
             "></p>
           <button id="passbtn" type="button" class="btn btn-warning" style="width: 100%;margin-top:50px;display: none;height: 50px">交付入場物品</button>
-          <button id="cancelbtn" type="button" class="btn" style="width: 100%;margin: 30px 0px;height: 50px;background-color: #f8f9fa;">取消</button>
+          <button id="cancelbtn" type="button" class="btn" 
+          style="width: 100%;margin: 0px 12px;height: 50px;background-color: #f8f9fa;position:absolute;bottom: 0;left: 0;">取消</button>
         </div>
       </div>
     </div>
